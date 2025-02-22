@@ -30,30 +30,6 @@ public class CustomerDetails
     {
 
     }
-    // public CustomerDetails(Details details)
-    // {
-    //     FirstName = details.firstName;
-    //     LastName = details.lastName;
-    //     Address = details.address;
-    //     StateOfOrigin = details.stateOfOrigin;
-    //     Phone1 = details.phone1;
-    //     Phone2 = details.phone2;
-    //     Religion = details.religion;
-    //     Gender = details.gender;
-    //     MaritalStatus = details.maritalStatus;
-    //     Email = details.email;
-    //     CustomerAccountNumber = details.accountNumber;
-    //     DateOfBirth = details.dateOfBirth;
-    //     Nationality = details.nationality;
-    //     NIN = details.NIN;
-    //     BVN = details.BVN;
-    //     NextOfKinName = details.nextOfKinName;
-    //     NextOfKinEmail = details.nextOfKinEmail;
-    //     AccountBalance = details.accountBalance;
-    //     TransactionPin = details.transactionPin;
-    //     AccountPassword = details.accountPassword;
-    //     AccountLimit = default!;
-    // }
     public override string ToString()
     {
         return $"Name: {FirstName} {LastName}\n" +
